@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedster</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2" id="logo">
+                    <h1>feedster</h1>
+                </div>
+                <div class="col-xs-8"></div>
+                <div class="col-xs-2" id="menu">
+                    <h1>menu</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAV MENU -->
+    <div class='nav-menu'>
+        <div class='container-nav'>
+          <ul> <span class="ul-title">Ngôn ngữ</span>
+            <li>Tiếng Việt</li>
+            <li>English</li>
+            <li>日本語</li>
+          </ul>
+          <ul><span class="ul-title"> Liên lạc</span>
+            <li>Twitter</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+          </ul>
+        </div>
+      </div>
+
+    <!-- MY POST -->
+    <div class="container">
+        <div class="post mypost">
+            <div class="row">
+                    <img class="avatar" src="https://s3.amazonaws.com/codecademy-content/courses/jquery+jfiddle+test/feedster/profile-purple.svg" alt="my-avatar">
+                    <h3 class="name">TÊN CỦA BẠN</h3>
+            </div>
+
+            <div class="row">
+                <textarea class="myPost" placeholder="Bạn đang nghĩ gì?"></textarea>
+            </div>
+
+            <div class="row">
+                    <p class="text-remaining">Còn lại <span class="wordCount">140</span> ký tự.</p>
+            </div>
+
+            <div class="row button-holder">
+                <button type="submit" class="btn btn-myPost">ĐĂNG BÀI</button>
+                <button type="submit" class="btn btn-myPost">ĐẾM TỪ</button>
+            </div>
+        </div>
+    </div>
+    <!-- FRIENDS POSTS -->
+    <div class="container">
+        <div class="friendsPosts">
+            <div class="post">
+                <div class="row">
+                    <img class="avatar" src="https://s3.amazonaws.com/codecademy-content/courses/jquery+jfiddle+test/feedster/profile-teal.svg">
+                    <h3 class="name">Ivory Breath</h3>
+                </div>
+
+                <div class="row">
+                    <p class="f-status">Buffalo bulgogi, are you kidding me!?! Do yourself a favor and head to this restaurant.</p>
+                </div>
+                <div class="row"><button class="btn btn-likes">+1</button></div>
+            </div>
+
+            <div class="post">
+                <div class="row">
+                    <img class="avatar" src="https://s3.amazonaws.com/codecademy-content/courses/jquery+jfiddle+test/feedster/profile-yellow.svg">
+                    <h3 class="name">Bacon West</h3>
+                </div>
+
+                <div class="row">
+                    <p class="f-status">Tacos, sausage, fundido, saurkraut and more! 10/10 would recommend.</p>
+                </div>
+                <div class="row"><button class="btn btn-likes">+1</button></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- end Bootstrap -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- end jQuery -->
+
+    <script src="script.js"></script>
+</body>
+</html>
